@@ -35,7 +35,7 @@ Orders.forEach((order) => {
 									? 'warning'
 									: 'primary'
 							}">${order.shipping}</td>
-							<td class="primary">Details</td> `;
+							<td class="primary cursor">Details</td> `;
 
 	tr.innerHTML = trContent;
 	document.querySelector('table tbody').appendChild(tr);
